@@ -1,0 +1,119 @@
+/* 
+    Created on : 15/05/2015, 05:21:20 PM
+    Author     : Byron Otalvaro
+*/
+
+body{
+    background: #bbbdbf;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    margin: 0;
+}
+
+header, #main, footer{
+    width: 1024px;
+    margin: 0 auto;
+    border: 1px solid #000000;
+}
+
+header, #main{
+    background-image: url(../images/fondocuadros.png);
+    background-repeat: no-repeat;
+}
+
+/************* header********************/
+header{
+    height: 149px;
+}
+
+.logoHeader{
+    width: 320px;
+    height: 116px;
+    background-image: url(../images/logrtmhome.png) ;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.socialHeader{
+    float: right;
+    width: 164px;
+    height: 116px;
+    margin: 0 13px;
+}
+
+.facebook, .linkedin, .blog{
+    float: right;
+    width: 39px;
+    height: 55px;
+    display: block;
+}
+
+.facebook{
+    background: url(../images/botonfacebook.png) no-repeat 0 bottom;
+}
+
+.linkedin{
+    background: url(../images/botonin.png) no-repeat 0 bottom;
+}
+
+.blog{
+    background: url(../images/botonredesw.png) no-repeat 0 bottom;
+}
+
+#buscar{
+    clear: both;
+    margin: 15px 0;
+    width: 158px;
+    height: 20px;
+    color: #c0c0c0;
+    font-family: Oswald,Tahoma, Verdana, Segoe, sans-serif;
+    background: #EFEFF0;
+    background-image: url(../images/lupa.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 12px;
+    border: none;
+}
+
+.topMenu{
+    clear: both;
+    height: 26px;
+    width: 100%;
+    background: url(../images/franjaroja.png) no-repeat;
+}
+.topMenu ul{
+    list-style-type: none;
+    margin: 0 auto;
+    width: 615px;
+}
+
+.topMenu ul li {
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 119px;
+    text-align: center
+}
+
+.topMenu a{
+    font-size: 14px;
+    font-family: Oswald, Tahoma, Verdana, Segoe, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.franjanegra{
+    height: 7px;
+    width: 100%;
+    background: #000000;
+}
+
+#main{
+    min-height: 523px;
+}
+
+footer{
+    height: 84px;
+}
