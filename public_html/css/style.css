@@ -9,10 +9,9 @@ body{
     margin: 0;
 }
 
-header, #main, footer{
+header, #main{
     width: 1024px;
     margin: 0 auto;
-    border: 1px solid #000000;
 }
 
 header, #main{
@@ -109,11 +108,310 @@ header{
     width: 100%;
     background: #000000;
 }
-
+/***************main**********************/
 #main{
     min-height: 523px;
+    height: auto;
 }
 
+.bannerMain{
+    width: 100%;
+    height: 357px;
+    background-image: url(../images/sombrafoto.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    
+}
+
+.bannerMain img{
+    width: 100%;
+}
+
+.widgets{
+    width: 700px;
+    height: 178px;
+    margin: 0 auto;
+}
+
+.widgets article{
+    width: 170px;
+    height: 178px;
+    margin: 0 27px;
+    float: left;
+}
+
+.widgets article header{
+    width: 100%;
+    height: 104px;
+    background: none;
+}
+
+.widgets article p{
+    width: 100%;
+    height: 74px;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 11px;
+    color: #5d5d5d;
+}
+/***************footer********************/
 footer{
     height: 84px;
+}
+
+.empresas, c3{
+    width: 100%;
+}
+
+.empresas{
+    height: 52px;
+    background: #000000;
+}
+
+.equitel{
+    float: left;
+    display: block;
+    width: 451px;
+    height: 52px;
+    background: url(../images/logoquitelfranjanegra.png) no-repeat;
+}
+
+.enlacesEmpresas{
+    float: right;
+    width: 268px;
+    height: 52px;
+    margin: 0 13px;
+}
+
+.lap{
+    display: block;
+    background: url(../images/logoLap.png) no-repeat;
+    width: 62px;
+    height: 52px;
+    float: right;
+}
+
+.inge{
+    display: block;
+    background: url(../images/logoabajoingenergia.png) no-repeat;
+    width: 88px;
+    height: 52px;
+    float: right;
+}
+
+.gaf{
+    display: block;
+    background: url(../images/logoabajogaf.png) no-repeat;
+    width: 58px;
+    height: 52px;
+    float: right;
+}
+
+.cumandes{
+    display: block;
+    background: url(../images/logoabajocummins.png) no-repeat;
+    width: 60px;
+    height: 52px;
+    float: right;
+}
+
+.c3{
+    height: 32px;
+    background: #939597;
+    text-align: center;
+}
+
+.c3Enlace{
+    display: block;
+    width: 188px;
+    height: 32px;
+    background: url(../images/c3logo.png) no-repeat;
+    margin: 0 auto;
+}
+
+.center{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+/***************Que es************/
+.spacer{
+    width: 100%;
+    height: 39px;
+}
+
+.videoQue{
+    border: 5px #821517 solid;
+    width: 604px;
+    height: 366px;
+    margin: 0 34px 0 11px;
+    float: left
+}
+
+.articuloQue, .articuloComo, .articuloCasos{
+    float: right;
+    width: 365px;
+    height: 366px;
+}
+
+.articuloQue header, .articuloComo header, .articulodistribuidor header, .articuloContacto header, .articuloCasos header{
+    width: 100%;
+    height: 43px;
+}
+
+.articuloQue header{
+    background: url(../images/franjaqueesrtm.png) no-repeat;
+}
+
+.articuloComo header{
+    background: url(../images/franjacomofunciona.png) no-repeat;
+}
+
+.articulodistribuidor header{
+    background: url(../images/franjadistribuidores.png) no-repeat;
+}
+
+.articuloContacto header{
+    background: url(../images/franjacontactenos.png) no-repeat;
+}
+
+.articuloCasos header{
+    background: url(../images/casosdeexito.png) no-repeat;
+}
+
+.articuloQue p, .articuloComo p, .articulodistribuidor p, .articuloContacto p, .articuloCasos p{
+    width: 331px;
+    height: 285px;
+    font-size: 14px;
+    color: #5d5d5d;
+    padding-top: 38px;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+.articulodistribuidor p{
+    width: 573px;
+    padding: 38px 59px;
+    margin: 0 auto;
+}
+
+.formDistribuidor{
+    width: 308px;
+    height: 460px;
+    background: #821517;
+    float: left;
+    margin: 0 34px 0;
+}
+
+.articulodistribuidor{
+    width: 648px;
+    float: right;
+}
+
+.articulodistribuidor li{
+    list-style-type: none;
+}
+
+.form{
+    width: 270px;
+    margin: 0 auto;
+}
+
+input,  textarea{
+    height: 26px;
+    width: 260px;
+    margin: 19px 0 -2px 0;
+    color: #5d5d5d;
+    font-family: Oswald,Tahoma, Verdana, Segoe, sans-serif;
+    background: #EFEFF0;
+    border: none;
+    padding: 5px;
+}
+
+.formDistribuidor textarea{
+    height: 66px;
+}
+
+#submit{
+    width: 90px;
+    padding: 0;
+}
+
+.formContacto{
+    width: 604px;
+    height: 366px;
+    background: #821517;
+    float: left;
+    margin: 0 34px 0;
+}
+
+.articuloContacto{
+    float: right;
+}
+
+.formContactoform{
+    width: 566px;
+    margin: 0 auto;
+}
+
+.formContactoform input{
+    margin: 19px 0 -2px 7px;
+    font-size: 13px;
+} 
+
+.formContactoform textarea{
+    width: 541px;
+    height: 66px;
+    margin: 19px 8px;
+}
+
+.formContactoform #submit{
+    margin-top: 0px;
+}
+
+.respaldoTitulo{
+    width: 100%;
+    height: 43px;
+    background-image: url(../images/franjarespaldo.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.respaldoEmpresas{
+    width: 502px;
+    margin: 58px auto;
+}
+
+.respaldoEquitel{
+    display: block;
+    float: left;
+    width: 205px;
+    height: 198px;
+    background: url(../images/logoorganizacionequitel.png) no-repeat;
+}
+
+.respaldoCumandes{
+    display: block;
+    width: 261px;
+    float: right;
+    height: 198px;
+    background: url(../images/logocummins.png) no-repeat;
+}
+
+.respaldoContent{
+    height: 400px;
+}
+
+.respaldoContent p{
+    clear: both;
+    width: 502px;
+    height: 139px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #5d5d5d;
+    padding-top: 30px;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+.formDistribuidor div {
+    margin: 5px 0 0 -90px;
 }
