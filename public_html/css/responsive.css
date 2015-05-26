@@ -1,0 +1,275 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/05/2015, 11:12:37 AM
+    Author     : Byron Otalvaro
+*/
+
+/********** Medida para celular ************/
+@media only screen 
+    and (min-width : 0px) 
+    and (max-width : 700px) {
+        
+        header, #main{
+            width: 100%;
+        }
+        
+        .socialHeader {
+            clear: both;
+            height: 66px;
+            margin: 100px 5px 0 5px;
+            width: 100%;
+        }
+        
+        #buscar {
+            margin: 25px 15px 0;
+            width: 35%;
+        }
+        
+        
+        .topMenu {
+            background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+            clear: both;
+            float: right;
+            width: 336px;
+            margin-top: -23px;
+            display: none;
+        }
+        
+        .topMenu ul li {
+            display: block;
+            background: rgba(0, 0, 0, 0) url("../images/franjaroja.png") no-repeat scroll 0 0;
+            background-position: top center;
+            border-bottom: 2px solid #000000;
+            float: right;
+            margin: 0 55px 0 0;
+            width: 100%;    
+        }
+        
+        .topMenu ul {
+            width: 100%;
+            margin: 25px auto;
+        }
+        
+        #main {
+            margin: 50px 0;
+            height: auto !important;
+            min-height: 923px;
+        }
+        
+        .bannerMain {
+            height: auto;
+        }
+        
+        /************* Responsive menu *********************/
+        .navbar-header {
+            float: none;
+            clear: both;
+            height: 26px;
+            display: block;
+            background: url(../images/franjaroja.png) no-repeat;
+        }
+        
+        .navbar-toggle {
+            display: block;
+            background-color: #ffffff;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            float: right;
+            margin: 1px 20px 0 8px;
+            padding: 4px 10px;
+            height: 24px;
+            width: 36px;
+        }
+        
+        .navbar-toggle .icon-bar {
+            background: #db1b21 none repeat scroll 0 0;
+        }
+        
+        .navbar-collapse {
+            border-top: 1px solid transparent;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        }
+        .navbar-collapse.collapse {
+            display: none!important;
+        }
+        .navbar-nav {
+            float: none!important;
+            margin: 7.5px -15px;
+        }
+        .navbar-nav>li {
+            float: none;
+        }
+        .navbar-nav>li>a {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        /* since 3.1.0 */
+        .navbar-collapse.collapse.in { 
+            display: block!important;
+        }
+        .collapsing {
+            overflow: hidden!important;
+        }
+        
+        
+    }
+    
+    @media only screen 
+    and (min-width : 0px) 
+    and (max-width : 1023px) {
+    
+        #main article {
+            width: 96%;
+        }
+        
+        #main article iframe{
+            width: 100% !important;
+            height: 100%;
+        }
+        
+        .articuloQue, .articuloComo, .articuloCasos {
+            float: right;
+            height: 366px;
+            width: 85%;
+            margin-top: 10px;
+            width: 70% !important;
+            margin-right: 10px;
+        }
+        
+        .articuloQue p, .articuloComo p, .articulodistribuidor p, .articuloContacto p, .articuloCasos p {
+            width: 100%;
+        }
+        
+        .formDistribuidor {
+            margin: 0 10px;
+        }
+        
+        .articulodistribuidor {
+            margin: 10px 10px 0;
+        }
+        
+        
+        .articuloContacto{
+            margin: 10px;
+        }
+        
+        .articuloContacto header{
+            float: right;
+            width: 65%;
+        }
+        
+        .articuloContacto p{
+            padding-top: 68px;
+        }   
+        
+        .respaldoEmpresas {
+            margin: 58px auto;
+            width: 98%;
+        }
+        
+        .respaldoEquitel, .respaldoCumandes {
+            margin: 0 auto;
+            float: none;
+        }
+        
+        .respaldoContent p {
+            padding-top: 0;
+            width: 80%;
+        }
+    }
+    
+    @media only screen 
+    and (min-width : 701px) 
+    and (max-width : 1023px) {
+        .navbar-header{
+            display: none;
+        }
+        
+        header, #main {
+            margin: 0 auto;
+            width: 100%;
+        }
+        
+        .topMenu ul{
+            width: 80%;
+        }
+        
+        .bannerMain {
+            height: auto !important;
+        }
+    }
+    
+    @media only screen 
+    and (min-width : 0px) 
+    and (max-width : 960px) {
+        
+        
+        .topMenu ul{
+            width: 100%;
+        }
+        
+        .articuloQue header, .articuloComo header, .articulodistribuidor header, .articuloContacto header, .articuloCasos header {
+            float: right;
+            margin-right: 10px;
+            width: 70% !important;
+        }
+        
+        .widgets {
+            height: auto;
+            margin: 0 auto;
+            width: 90%;
+        }
+        
+        .widgets article {
+            margin: 0 27px 10px;
+            width: 35%;
+        }
+        
+        .widgets article header {
+            width: 100%;
+        }
+        
+        .center {
+            width: 80%;
+        }
+        
+        .equitel {
+            clear: both;
+            height: 52px;
+            width: 100%;
+        }
+        
+        .enlacesEmpresas {
+            float: none;
+            margin: 0 auto;
+        }
+        
+        .c3 {
+            clear: both;
+        }
+    }
+    
+    @media only screen 
+    and (min-width : 0px) 
+    and (max-width : 415px) {
+        
+        .articuloQue header, .articuloComo header, .articulodistribuidor header, .articuloContacto header, .articuloCasos header {
+            float: right;
+            margin-right: 10px;
+            width: 100%;
+        }
+        
+        .widgets article header {
+            width: 50%;
+        }
+        
+        .widgets article {
+                    margin: 0 auto;
+                    width: 100%;
+                }
+    }
