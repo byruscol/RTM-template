@@ -64,6 +64,11 @@ and open the template in the editor.
             height: auto;
         }
         
+        #welcomeMsg {
+            margin: 0;
+            width: 100%;
+        }
+        
         /************* Responsive menu *********************/
         .navbar-header {
             float: none;
@@ -205,6 +210,15 @@ and open the template in the editor.
     }
     
     @media only screen 
+    and (min-width : 701px) 
+    and (max-width : 960px) {
+        #welcomeMsg {
+            margin: -130px 0;
+            width: 55%;
+        }
+    }
+    
+    @media only screen 
     and (min-width : 0px) 
     and (max-width : 960px) {
         
@@ -263,7 +277,7 @@ and open the template in the editor.
             margin-right: 10px;
             width: 100%;
         }
-        
+                
         .widgets article header {
             width: 50%;
         }

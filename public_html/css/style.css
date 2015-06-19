@@ -132,6 +132,26 @@ header{
     width: 100%;
 }
 
+#welcomeMsg {
+    background: #000000 none repeat scroll 0 0;
+    color: #ffffff;
+    float: right;
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
+    font-size: 13px;
+    margin: -130px 0;
+    opacity: 0.5;
+    padding: 8px;
+    position: relative;
+    width: 45%;
+    z-index: 9999;
+}
+
+#welcomeMsg h3{
+    font-size: 20px;
+    margin: 0;
+    font-family: Oswald,Tahoma, Verdana, Segoe, sans-serif;
+}
+
 .widgets{
     width: 700px;
     height: 178px;
@@ -247,7 +267,7 @@ footer{
 }
 
 .videoQue{
-    border: 5px #821517 solid;
+    border: 5px #DF1B22 solid;
     width: 604px;
     height: 366px;
     margin: 0 34px 0 11px;
@@ -303,7 +323,7 @@ footer{
 .formDistribuidor{
     width: 308px;
     height: 460px;
-    background: #821517;
+    background: #DF1B22;
     float: left;
     margin: 0 34px 0;
 }
@@ -311,6 +331,11 @@ footer{
 .articulodistribuidor{
     width: 648px;
     float: right;
+}
+
+.formDistribuidor iframe {
+    margin-left: 95px;
+    width: 70% !important;
 }
 
 .articulodistribuidor li{
@@ -345,7 +370,7 @@ input,  textarea{
 .formContacto{
     width: 604px;
     height: 366px;
-    background: #821517;
+    background: #DF1B22;
     float: left;
     margin: 0 34px 0;
 }
@@ -421,3 +446,17 @@ input,  textarea{
 .formDistribuidor div {
     margin: 5px 0 0 -90px;
 }
+
+#habeas{
+    clear: both;
+    width: 273px;
+    height: 18px;
+    margin: 0 auto;
+    color: #5D5D5D;
+    
+ }
+ 
+ #habeas a{
+     color: #5D5D5D;
+     text-decoration: none;
+ }
